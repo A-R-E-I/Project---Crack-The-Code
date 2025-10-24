@@ -7,9 +7,10 @@ package crackpack;
 
 public class main {
 
-	public static void main(String[] args) {
-		
-
+	public static void main(String[] args) 
+	{
+		CollectCrack input = new CollectCrack();
+		input.inputs();
 	}
 
 }
