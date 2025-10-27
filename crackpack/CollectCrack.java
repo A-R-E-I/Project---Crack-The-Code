@@ -6,6 +6,7 @@ public class CollectCrack
 {
 	public void inputs() 
 	{
+		
 		Scanner input = new Scanner(System.in);
 		
 		System.out.println("Welcome!!");
@@ -15,7 +16,18 @@ public class CollectCrack
 		System.out.print("Enter lastname: ");
 		String lname = input.nextLine();
 		
-		System.out.println("Hi " + fname + " " + lname + ", are you reeady to crack the code?");
+		System.out.print("Hi " + fname + " " + lname + ", are you ready to crack the code?");
+		String YN = input.nextLine();
+		String checkYN = YN.toUpperCase();
+		
+		if(YN == "YES")
+		{
+			
+		}
+		else 
+		{
+			
+		}
 		
 	}
 }
