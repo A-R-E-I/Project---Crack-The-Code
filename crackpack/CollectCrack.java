@@ -4,10 +4,13 @@ import java.util.Scanner;
 
 public class CollectCrack 
 {
+	
+	Scanner input = new Scanner(System.in);
+	
 	public void inputs() 
 	{
 		
-		Scanner input = new Scanner(System.in);
+		
 		
 		System.out.println("Welcome!!");
 		
@@ -20,14 +23,22 @@ public class CollectCrack
 		String YN = input.nextLine();
 		String checkYN = YN.toUpperCase();
 		
-		if(YN == "YES")
+		if(checkYN == "YES")
 		{
-			
+			codeInput();
 		}
 		else 
 		{
-			
+			System.out.println("Goodbye");
 		}
 		
+		
+	}
+	
+	public void codeInput() 
+	{
+		System.out.print("Enter a string:");
+		String SInput = input.nextLine();
+		Int StrInput = SInput.length();
 	}
 }
