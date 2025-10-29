@@ -2,7 +2,7 @@ package crackpack;
 
 import java.util.Scanner;
 
-public class CollectCrack 
+public class CollectCrack //Collects all inputed data
 {	
 	Scanner input = new Scanner(System.in);
 	CrackInfo info = new CrackInfo();

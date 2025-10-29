@@ -1,6 +1,6 @@
 package crackpack;
 
-public class CrackInfo 
+public class CrackInfo //checks all inputed info and sees if it fulfills the conditions to crack the code
 {
 	private int IsEven;
 	private int OneLeft;

@@ -5,7 +5,7 @@
 //End date:10/28/25
 package crackpack;
 
-public class main 
+public class main //Calls CollectCrack
 {
 
 	public static void main(String[] args) 
